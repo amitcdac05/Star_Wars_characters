@@ -1,0 +1,154 @@
+/* src/App.css
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.character-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.character-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.character-card img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid #007bff;
+  background-color: #ffffff;
+  color: #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination-button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.pagination-button:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 1rem;
+  color: #333;
+  margin: 0 10px;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Modal styling */
+.modal {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.login-container {
+  width: 300px;
+  margin: 150px auto;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ccc;
+  background: white;
+
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
